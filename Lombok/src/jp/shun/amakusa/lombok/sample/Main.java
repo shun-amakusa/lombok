@@ -12,7 +12,7 @@ public class Main {
 
 		HashSet<String> aliasSet = Sets.newHashSet("シャア・アズナブル", "クワトロ・バジーナ");
 
-		// @Builderにより自動生成されたbuilderを使用してインスタンスを取得
+		// @Builderにより自動生成されたbuilderを使用してインスタンスを生成
 		Pilot pilot = Pilot.builder().name("キャスバル・レム・ダイクン").age(27).aliases(aliasSet).build();
 
 		// @Dataにより自動でオーバーライドされたtoString()を使用して出力
